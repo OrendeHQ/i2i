@@ -1075,15 +1075,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 
 /*By Stan */
-.header-1-sub .row .btn {
-  /*border: 2px solid red;*/
-  color: red;
-  background-color: white;
+.header-1-sub .container .row .btn {
+  border: 3px solid white;
+  color: white;
+  font-size: 20;
+  font-weight: 700;
 }
 
-.header-1-sub .row .btn:hover{
-  background-color: red;
-  color: white;
+.header-1-sub .container .row .btn:hover{
+  background-color: white;
+  color: rgba(0, 0, 0, 0.4);;
 }
 
 .content-26 {
