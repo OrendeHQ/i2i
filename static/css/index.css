@@ -1073,6 +1073,19 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-1-sub .page-transitions .controls > *.control-next {
   left: 45px;
 }
+
+/*By Stan */
+.header-1-sub .row .btn {
+  /*border: 2px solid red;*/
+  color: red;
+  background-color: white;
+}
+
+.header-1-sub .row .btn:hover{
+  background-color: red;
+  color: white;
+}
+
 .content-26 {
   position: relative;
   padding-top: 125px;
@@ -1285,6 +1298,18 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     padding: 60px 20px 60px 20px;
   }
 }
+
+/*By Stanley*/
+.content-21 .features-body .row .btn {
+  border: 2px solid red;
+  color: red;
+}
+
+.content-21 .features-body .row .btn:hover {
+  background-color: red;
+  color: white;
+}
+
 .projects-* .pt-perspective {
   position: relative;
   height: 100%;
@@ -1617,6 +1642,19 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     margin-top: 80px;
   }
 }
+/* By Stanley */
+.crew-1 .container .row .btn {
+  margin-top: 80px;
+  border: 2px solid red;
+  color: red;
+}
+
+.crew-1 .container .row .btn:hover {
+  background-color: red;
+  color: white;
+}
+
+
 /**
  * Content 18 stylesheet  
  * */
