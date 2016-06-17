@@ -1079,7 +1079,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   border: 3px solid white;
   color: white;
   font-size: 20;
-  font-weight: 700;
+  /*font-weight: 700;*/
 }
 
 .header-1-sub .container .row .btn:hover{
@@ -2066,4 +2066,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 /*by Stanley*/
 .footer-1 .container .row .social-btns {
   margin-top: 30px !important;
+}
+
+.dropdown .dropdown-menu {
+  margin-top: -5px !important;
+  background-color: rgb(54, 57, 64);
+}
+
+.dropdown .dropdown-menu li > a {
+  color: white !important;
+}
+
+.dropdown .dropdown-menu li > a:hover{
+  color: black !important;
 }
