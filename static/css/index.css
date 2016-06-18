@@ -851,7 +851,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 25px;
   font-weight: normal;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   color: white;
 }
 .header-1 .navbar .brand:hover,
@@ -873,7 +873,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding: 35px 0 27px;
   font-size: 13px;
   font-weight: normal;
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 1px;
   color: white;
 }
@@ -1076,7 +1076,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 /*By Stan */
 .header-1-sub .container .row .btn {
-  border: 3px solid white;
+  border: 2px solid white;
   color: white;
   font-size: 20;
   /*font-weight: 700;*/
@@ -1089,8 +1089,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 .content-26 {
   position: relative;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
 }
 .content-26 .lead {
@@ -1126,7 +1126,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-21 {
   position: relative;
-  padding-top: 140px;
+  padding-top: 55px;
   padding-bottom: 0;
 }
 .content-21 h3 {
@@ -1368,8 +1368,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Project 4 stylesheet  
  * */
 .projects-4 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #ecf0f1;
 }
 .projects-4 h3 {
   margin: 0 0 60px;
@@ -1500,11 +1501,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Crew 1 stylesheet  
  * */
 .crew-1 {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .crew-1 h3 {
-  margin: 0 0 73px;
+  margin: 0 0 70px;
   font-size: 30px;
   text-align: center;
   font-weight: 300;
@@ -1514,7 +1515,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   width: 100%;
 }
 .crew-1 .members + .members {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .crew-1 .members .member-wrapper {
   display: table-cell;
@@ -1645,7 +1646,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 /* By Stanley */
 .crew-1 .container .row .btn {
-  margin-top: 80px;
+  margin-top: 70px;
   border: 2px solid red;
   color: red;
 }
@@ -1798,8 +1799,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Content 8 stylesheet  
  * */
 .content-8 {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   position: relative;
   text-align: center;
 }
