@@ -895,7 +895,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   z-index: 50;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 700px;
   padding: 0;
   overflow: hidden;
   color: white;
@@ -1071,7 +1071,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-1-sub .page-transitions .controls > *.control-next {
-  left: 45px;
+  right: 0px;
 }
 /**
  * Copntact 3 stylesheet  
@@ -1189,8 +1189,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Footer 1 stylesheet  
  * */
 .footer-1 {
-  padding-top: 85px;
-  padding-bottom: 85px;
+  padding-top: 70px;
+  padding-bottom: 30px;
   font-size: 14px;
   color: #bdc3c7;
 }

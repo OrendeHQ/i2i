@@ -895,7 +895,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   z-index: 50;
   left: 0;
   width: 100%;
-  height: 500px;
+  height: 700px;
   padding: 0;
   overflow: hidden;
   color: white;
@@ -917,7 +917,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .header-1-sub h3 {
   margin: 0 0 20px 0;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: normal;
   color: white;
   font-weight: 500;
@@ -938,10 +938,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-1-sub .lead {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: normal;
   color: white;
-  font-weight: 300;
+  font-weight: 100;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
 }
@@ -1035,7 +1035,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 140px;
+  bottom: 230px;
 }
 @media (max-width: 480px) {
   .header-1-sub .page-transitions .caption {
@@ -1061,7 +1061,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transition: color 0.25s;
 }
 .header-1-sub .page-transitions .controls > *:hover,
-.header-1-sub .page-transitions .controls > *:focus,
+/*.header-1-sub .page-transitions .controls > *:focus,*/
 .header-1-sub .page-transitions .controls > *.active {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -1071,7 +1071,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-1-sub .page-transitions .controls > *.control-next {
-  left: 45px;
+  right: 0px;
 }
 
 /*By Stan */
@@ -1079,6 +1079,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   border: 2px solid white;
   color: white;
   font-size: 20;
+  font-size: 25px;
+  margin-top: 15px;
   /*font-weight: 700;*/
 }
 
@@ -1126,16 +1128,25 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-21 {
   position: relative;
-  padding-top: 55px;
+  padding-top: 35px;
   padding-bottom: 0;
 }
+
+.content-21 .container {
+  height: 600px;
+}
+
+.content-21 .features-body {
+  height: 460px !important;
+}
+
 .content-21 h3 {
   font-size: 30px;
   font-weight: normal;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  margin-bottom: 55px;
+  margin-bottom: 35px;
   font-weight: 300;
 }
 @media (max-width: 480px) {
@@ -1515,7 +1526,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   width: 100%;
 }
 .crew-1 .members + .members {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .crew-1 .members .member-wrapper {
   display: table-cell;
@@ -1567,7 +1578,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background: 50% 50% no-repeat;
   opacity: 30;
   filter: alpha(opacity=3000);
-  opacity: 0.3;
+  /*opacity: 0.3;*/
   filter: alpha(opacity=30);
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
@@ -1700,7 +1711,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-18 .carousel .quote-author {
   max-width: 625px;
-  margin: 45px auto 0;
+  margin: 45px auto 10px;
   padding: 0 20px;
   font-size: 18px;
   font-weight: normal;
@@ -2068,16 +2079,3 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .footer-1 .container .row .social-btns {
   margin-top: 30px !important;
 }
-
-.dropdown .dropdown-menu {
-  background-color: rgb(54, 57, 64);
-}
-
-.dropdown .dropdown-menu li > a {
-  color: white !important;
-}
-
-.dropdown .dropdown-menu li > a:hover{
-  color: black !important;
-}
-
