@@ -7,8 +7,10 @@ h1, h2, h3, h4, h5, h6, .box {
 
 p, a {
 	font-family: "Roboto Slab" !important;
+	font-weight: 100;
 }
 
-.info, .quote-text, .quote-author {
+.info, .quote-text, .quote-author, .col-sm-4 {
 	font-family: "Roboto Slab" !important;
+	font-weight: 100;
 }

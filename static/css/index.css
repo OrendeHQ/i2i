@@ -264,7 +264,7 @@ footer {
   background-color: #c0392b;
 }
 .bg-clouds {
-  background-color: #ecf0f1;
+  background-color: #f5f5f5;
 }
 .bg-silver {
   background-color: #bdc3c7;
@@ -473,6 +473,11 @@ p {
 [class^="fui-"] {
   display: inline-block;
   vertical-align: middle;
+}
+[class^="fui-arrow-"] {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: x-large;
 }
 body > section,
 header,
@@ -1045,7 +1050,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-1-sub .page-transitions .controls > * {
   position: absolute;
   left: 15;
-  top: 410px;
+  top: 330px;
   z-index: 1000;
   width: 20px;
   overflow: hidden;
@@ -1381,7 +1386,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .projects-4 {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #ecf0f1;
+  background-color: #f5f5f5;
 }
 .projects-4 h3 {
   margin: 0 0 60px;
@@ -1552,8 +1557,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: inline-block;
 }
 .crew-1 .members .photo-wrapper {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   position: relative;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -1612,7 +1617,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-align: center;
   font-size: 14px;
   color: #95a5a6;
-  margin-top: 36px;
+  margin-top: 16px;
 }
 .crew-1 .members .name {
   color: #34495e;
@@ -1672,9 +1677,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
  * Content 18 stylesheet  
  * */
 .content-18 {
-/*  padding-top: 130px;
-  padding-bottom: 130px;
-*/  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #f5f5f5;
 }
 .content-18 .carousel {
 /*  margin-bottom: 100px;
@@ -1699,7 +1705,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .content-18 .carousel .quote-text {
-  max-width: 625px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0 20px;
   font-size: 30px;
@@ -1711,11 +1717,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-18 .carousel .quote-author {
   max-width: 625px;
-  margin: 45px auto 10px;
+  margin: 45px auto 0px;
   padding: 0 20px;
   font-size: 18px;
   font-weight: normal;
-  color: #bdc3c7;
+  color: #333;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
@@ -1842,7 +1848,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   box-sizing: border-box;
   background: none;
   border: 2px solid #e74c3c;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
   color: #7f8c8d;
   font-weight: 500;
@@ -2078,4 +2084,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 /*by Stanley*/
 .footer-1 .container .row .social-btns {
   margin-top: 30px !important;
+}
+
+.content-26 .features .right-block {
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+.content-26 .features .left-block {
+  padding-left: 0;
+  padding-right: 30px;
 }
