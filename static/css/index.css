@@ -1602,7 +1602,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   top: 0;
   text-align: center;
   color: #fff;
-  line-height: 220px;
+  line-height: 170px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.4s;
