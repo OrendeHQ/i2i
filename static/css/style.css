@@ -14,3 +14,8 @@ p, a {
 	font-family: "Roboto Slab" !important;
 	font-weight: 100;
 }
+
+.footer-1 {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}

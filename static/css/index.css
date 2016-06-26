@@ -1726,6 +1726,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
+.content-18 .carousel .quote-author span {
+  display: inline-block;
+  vertical-align: middle;
+}
 .content-18 .carousel .controls {
   position: relative;
   z-index: 3;
@@ -1828,7 +1832,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: normal;
   color: #34495e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 70px 0 35px;
+  margin: 0px 0 35px;
 }
 .content-8 p {
   font-size: 18px;
