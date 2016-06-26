@@ -1247,16 +1247,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   display: table-cell;
 }
 .projects-1 .projects .project {
-  width: 270px;
+  width: 200px;
   display: inline-block;
 }
 .projects-1 .projects .photo-wrapper {
-  width: 270px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   position: relative;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden;
   background-color: #ecf0f1;
   -webkit-transition: background-color 0.4s;
@@ -1293,7 +1293,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   top: 0;
   text-align: center;
   color: #fff;
-  line-height: 220px;
+  line-height: 210px;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.4s;
@@ -1303,9 +1303,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .projects-1 .projects .overlay [class*="fui-"] {
   font-size: 46px;
+  line-height: 210px;
 }
 .projects-1 .projects .info {
-  text-align: left;
+  text-align: center;
   font-size: 14px;
   color: #95a5a6;
   margin-top: 39px;
