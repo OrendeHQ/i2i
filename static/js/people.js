@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	// var width = $('#advisors').width();
-	// var height = $('#advisors').height();
 	$('#all').click(function(){
 		$('.advisors').show();
 		$('.mentors').show();
@@ -25,4 +23,13 @@ $(document).ready(function(){
 		$('.title a').removeClass('active');
 		$(this).addClass('active');
 	})
+	if(/#advisors$/.test(window.location.href)){
+		$('#advisors-trigger').trigger('click');
+	}else if(/#management$/.test(window.location.href)){
+		$('#management-trigger').trigger('click');
+	}else if(/#founding$/.test(window.location.href)){
+		$('#team-trigger').trigger('click');
+	}else if(/#mentors$/.test(window.location.href)){
+		$('#mentors-trigger').trigger('click');
+	}
 })
