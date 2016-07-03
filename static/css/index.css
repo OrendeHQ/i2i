@@ -992,7 +992,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("../../startup/common-files/img/NY_002.jpg");
+  background-image: url("../../img/headers/index-header-1.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1000,7 +1000,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background-image: url("../../startup/common-files/img/header/img-2.jpg");
+  background-image: url("../../img/headers/index-header-2.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
