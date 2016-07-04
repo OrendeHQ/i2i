@@ -1137,7 +1137,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 110px;
 }
 .projects-1 .title {
-  margin: 0 0 50px;
+  /*margin: 0 0 50px;*/
   line-height: 1.5;
 }
 .projects-1 .title a {
@@ -1238,10 +1238,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .projects-1 .projects {
   display: table;
   width: 100%;
-  margin-top: 65px;
+  /*margin-top: 65px;*/
 }
-.projects-1 .projects + .projects {
-  margin-top: 80px;
+.project-wrapper {
+  padding-top: 80px;
 }
 .projects-1 .projects .project-wrapper {
   display: table-cell;

@@ -2,13 +2,13 @@ $(document).ready(function(){
 	$('#all').click(function(){
 		$('.advisors').show();
 		$('.mentors').show();
-		$('.team').show();
+		$('.founding').show();
 		$('.management').show();
 	});
 	$('#advisors-trigger').click(function(){
 		$('.advisors').show();
 		$('.mentors').hide();
-		$('.team').hide();
+		$('.founding').hide();
 		$('.management').hide();
 	})
 	$('#mentors-trigger').click(function(){
@@ -19,15 +19,15 @@ $(document).ready(function(){
 	})
 	$('#team-trigger').click(function(){
 		$('.advisors').hide();
-		$('.team').show();
+		$('.founding').show();
 		$('.mentors').hide();
 		$('.management').hide();
 	})
 	$('#management-trigger').click(function(){
 		$('.advisors').hide();
-		$('.team').hide();
+		$('.founding').show();
 		$('.mentors').hide();
-		$('.management').show();
+		$('.management').hide();
 	})
 	$('.title a').click(function(){
 		$('.title a').removeClass('active');
