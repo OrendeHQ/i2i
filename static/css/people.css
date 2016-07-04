@@ -1277,12 +1277,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background: 50% 50% no-repeat;
   opacity: 30;
   filter: alpha(opacity=3000);
-  opacity: 0.3;
   filter: alpha(opacity=30);
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
+  background-size: cover;
 }
 .projects-1 .projects .overlay {
   display: block;
