@@ -111,7 +111,7 @@
             <a id='management-trigger'>|management team|</a>
             <a id='advisors-trigger'>|advisory board|</a>
             <a id="mentors-trigger">|mentors|</a>
-            <a id='team-trigger'>|founding team|</a>
+            <a id='founding-trigger'>|founding team|</a>
         </div>
 
 <!--         <div class="head-box">
@@ -711,6 +711,22 @@
     </div>
 </footer> <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+            <script src='static/js/smooth-scroll.js'></script>
+            <script>smoothScroll.init()</script>
+            <script>
+                if ( window.location.hash ) {
+                    var hash = smoothScroll.escapeCharacters( window.location.hash ); // Escape the hash
+                    var toggle = document.querySelector( 'a[href*="' + hash + '"]' ); // Get the toggle (if one exists)
+                    var options = {
+                        speed: 1000,
+                        callback: function(anchor){
+                            var id=anchor+'-trigger';
+                            $(id).trigger('click');
+                        }
+                    }; // Any custom options you want to use would go here
+                    smoothScroll.animateScroll( hash, toggle, options );
+                }
+            </script>
             <script src='static/js/people.js'></script>
             <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
             <script src="startup/common-files/js/jquery.bxslider.min.js"></script>
