@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="shortcut icon" href="startup/flat-ui/images/favicon.ico">
-        
+
         <link rel="stylesheet" href="startup/flat-ui/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.css">
         <!-- Using only with Flat-UI (free)-->
@@ -77,10 +77,9 @@
             </div>
         </div>
     </div>
-    <div id='row1'></div>
 </section>
 <section class="contacts-3">
-    <div class="container">
+    <div class="container" id='row1'>
         <div class="row">
             <div class="col-sm-5">
                 <h3>Dr. CJ Meadows, Director</h3>
@@ -108,7 +107,6 @@
                 <div class="map">
                     <!--map-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14449.343433092146!2d55.402819264804734!3d25.124333681847947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f638c29e5f7db%3A0x89a4164a1101c007!2sS+P+Jain+School+of+Global+Management!5e0!3m2!1sen!2ssg!4v1466270744428" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <div id='row2'></div>
                 </div>
             </div>
             <!-- <div class="col-sm-6 col-sm-offset-1">
@@ -126,7 +124,7 @@
             </div> -->
         </div>
     </div>
-    <div class="container">
+    <div class="container" id='row2'>
         <div class="row">
             <div class="col-sm-5">
                 <h3>Ambassador Amit Dasgupta</h3>
@@ -242,6 +240,14 @@
     </div>
 </footer>            <!-- Placed at the end of the document so the pages load faster -->
             <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
+            <script src='static/js/smooth-scroll.js'></script>
+            <script>smoothScroll.init({speed:1000, offset:70})</script>
+            <script>
+                if ( window.location.hash ) {
+                    var hash = smoothScroll.escapeCharacters(window.location.hash );
+                    smoothScroll.animateScroll(hash);
+                }
+            </script>
             <script src="startup/common-files/js/jquery.bxslider.min.js"></script>
             <script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
             <script src="startup/common-files/js/jquery.sharrre.min.js"></script>
