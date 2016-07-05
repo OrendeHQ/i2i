@@ -17,7 +17,7 @@ $(document).ready(function(){
 		$('.team').hide();
 		$('.management').hide();
 	})
-	$('#team-trigger').click(function(){
+	$('#founding-trigger').click(function(){
 		$('.advisors').hide();
 		$('.founding').show();
 		$('.mentors').hide();
@@ -25,9 +25,9 @@ $(document).ready(function(){
 	})
 	$('#management-trigger').click(function(){
 		$('.advisors').hide();
-		$('.founding').show();
+		$('.founding').hide();
 		$('.mentors').hide();
-		$('.management').hide();
+		$('.management').show();
 	})
 	$('.title a').click(function(){
 		$('.title a').removeClass('active');
