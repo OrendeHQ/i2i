@@ -1,33 +1,33 @@
 $(document).ready(function(){
 	$('#all').click(function(){
-		$('.advisors').show();
-		$('.mentors').show();
-		$('.founding').show();
-		$('.management').show();
+		$('.advisors').fadeIn();
+		$('.mentors').fadeIn();
+		$('.founding').fadeIn();
+		$('.management').fadeIn();
 	});
 	$('#advisors-trigger').click(function(){
-		$('.advisors').show();
-		$('.mentors').hide();
-		$('.founding').hide();
-		$('.management').hide();
+		$('.mentors').fadeOut();
+		$('.founding').fadeOut();
+		$('.management').fadeOut();
+		$('.advisors').fadeIn();
 	})
 	$('#mentors-trigger').click(function(){
-		$('.advisors').hide();
-		$('.mentors').show();
-		$('.team').hide();
-		$('.management').hide();
+		$('.advisors').fadeOut();
+		$('.team').fadeOut();
+		$('.management').fadeOut();
+		$('.mentors').fadeIn();
 	})
 	$('#founding-trigger').click(function(){
-		$('.advisors').hide();
-		$('.founding').show();
-		$('.mentors').hide();
-		$('.management').hide();
+		$('.advisors').fadeOut();
+		$('.mentors').fadeOut();
+		$('.management').fadeOut();
+		$('.founding').fadeIn();
 	})
 	$('#management-trigger').click(function(){
-		$('.advisors').hide();
-		$('.founding').hide();
-		$('.mentors').hide();
-		$('.management').show();
+		$('.advisors').fadeOut();
+		$('.founding').fadeOut();
+		$('.mentors').fadeOut();
+		$('.management').fadeIn();
 	})
 	$('.title a').click(function(){
 		$('.title a').removeClass('active');
