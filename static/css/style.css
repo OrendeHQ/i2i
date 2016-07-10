@@ -27,3 +27,8 @@ p, a {
 .content-4 .container .col-sm-4 img {
 	margin-left: 20%;
 }
+
+.footer-1 {
+	padding-top: 70px !important;
+	padding-bottom: 30px !important;
+}
