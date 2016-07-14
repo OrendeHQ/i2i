@@ -10,7 +10,7 @@ p, a {
 	font-weight: 100;
 }
 
-.info, .quote-text, .quote-author, .col-sm-4 {
+.info, .quote-text, .quote-author, .col-sm-4, .col-sm-3 {
 	font-family: "Roboto Slab" !important;
 	font-weight: 100;
 }
