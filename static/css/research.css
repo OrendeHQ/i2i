@@ -989,7 +989,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background-image: url("../../img/headers/index-header-2.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../img/headers/index-header-2.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
