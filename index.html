@@ -38,7 +38,7 @@
                                     <a href="./index.html">HOME</a>
                                 </li>
                                 <li>
-                                    <a href="./about.html">ABOUT</a>
+                                    <a href="#about" data-scroll>ABOUT</a>
                                 </li>
                                 <li class='dropdown'>
                                     <a href="./program.html" class='dropdown-toggle' aria-haspopup="true" aria-expanded="false">EDUCATION&middot;CONSULTING</a>
@@ -57,9 +57,9 @@
                                 <li class='dropdown'>
                                     <a href="./people.html" class='dropdown-toggle' aria-haspopup="true" aria-expanded="false">TEAM</a>
                                     <ul class='dropdown-menu'>
+                                        <li><a href="./people.html#advisors">ADVISORY BOARD</a></li>
                                         <li><a href="./people.html#management">MANAGEMENT TEAM</a></li>
                                         <li><a href="./people.html#mentors">MENTORS</a></li>
-                                        <li><a href="./people.html#advisors">ADVISORY BOARD</a></li>
                                         <li><a href="./people.html#founding">FOUNDING TEAM</a></li>
                                     </ul>
                                 </li>
@@ -119,7 +119,7 @@
         </div>
     </div>
 </section>
-<section class="content-26 bg-clouds">
+<section class="content-26 bg-clouds" id="about">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
@@ -471,14 +471,14 @@
 <footer class="footer-1 bg-midnight-blue">
     <div class="container">
         <div class="row">
-            <div class='col-sm-2'>
-                <img class='img-responsive' src='img/logo.png' width="100" height="100" alt="">
+            <div class="col-md-2 col-xs-12">
+                <img class='img-responsive i2i-logo' src='img/logo.png' width="100" height="100" alt="">
             </div>
             <nav>
-                <div class="col-sm-2">
+                <div class="col-md-2 col-xs-12">
                     <h6>Site Map</h6>
                     <ul>
-                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#about" data-scroll>About</a></li>
                         <li><a href="./program.html">Education&middot;Consulting</a></li>
                         <li><a href="./research.html">Research</a></li>
                         <li><a href="./clients.html">Clients</a></li>
@@ -486,7 +486,7 @@
                         <li><a href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-md-2 col-xs-12">
                     <h6>Contact Us</h6>
                     <ul>
                         <li><a href='mailto:i2i@spjain.org'><span class="glyphicon glyphicon-envelope"></span>  i2i@spjain.org</a></li>
@@ -495,6 +495,14 @@
                         <li><a href="./contact.html#row2"><span class="glyphicon glyphicon-map-marker"></span> India</a></li>
                         <li><a href="./contact.html#row2"><span class="glyphicon glyphicon-map-marker"></span> Australia</a></li>
                     </ul>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <h6>Established in collaboration with</h6>
+                    <img class="img-responsive" src="./img/logos/spjain.jpg" />
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <h6>Get more info</h6>
+                    <a class="btn btn-default brochure-btn" href="http://download1065.mediafire.com/gkbc05b2cy1g/86cvt9wh2b80s8c/i2i+%40+SPJain+-+brochure.pptx">Download Our Brochure</a>
                 </div>
             </nav>
         </div>
@@ -518,6 +526,12 @@
 </footer>            <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
             <script>smoothScroll.init({speed: 1000, offset: 70})</script>
+            <script>
+                if ( window.location.hash ) {
+                    var hash = smoothScroll.escapeCharacters(window.location.hash );
+                    smoothScroll.animateScroll(hash, document.querySelector('#about'), {speed: 1000, offset: 70});
+                }
+            </script>
             <script src='static/js/index.js'></script>
             <script src='static/js/animation.js'></script>
             <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>

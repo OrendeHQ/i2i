@@ -29,6 +29,30 @@ p, a {
 }
 
 .footer-1 {
-	padding-top: 70px !important;
+	padding-top: 50px !important;
 	padding-bottom: 30px !important;
+}
+
+.footer-1 nav h6 {
+	margin-top: 20px;
+}
+
+.footer-1 .i2i-logo {
+	padding-top: 20px;
+}
+
+.brochure-btn {
+	background-color: rgb(231, 76, 60) !important;
+	color: #ffffff !important;
+	/*margin-top: 20px;*/
+}
+
+.brochure-btn:hover {
+	background-color: #ff0000 !important;
+	color: #ffffff !important;
+}
+
+.footer-1 .container-fluid {
+	padding-left: 40px;
+	padding-right: 40px;
 }
