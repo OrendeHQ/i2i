@@ -1594,6 +1594,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
+  background-size: cover;
 }
 .crew-1 .members .photo img {
   display: none;
