@@ -52,7 +52,6 @@ p, a {
 	color: #ffffff !important;
 }
 
-.footer-1 .container-fluid {
-	padding-left: 40px;
-	padding-right: 40px;
+.header-1 .navbar .nav > li > a:hover, .header-1 .navbar .nav > li > a.active {
+	color: rgb(231, 76, 60);
 }
