@@ -13,7 +13,7 @@ $(document).ready(function(){
 	})
 	$('#mentors-trigger').click(function(){
 		$('.advisors').fadeOut();
-		$('.team').fadeOut();
+		$('.founding').fadeOut();
 		$('.management').fadeOut();
 		$('.mentors').fadeIn();
 	})
@@ -33,4 +33,17 @@ $(document).ready(function(){
 		$('.title a').removeClass('active');
 		$(this).addClass('active');
 	})
+	if ( window.location.hash ) {
+		var hash = smoothScroll.escapeCharacters( window.location.hash ); // Escape the hash
+		var toggle = document.querySelector( 'a[href*="' + hash + '"]' ); // Get the toggle (if one exists)
+		var options = {
+			speed: 1000,
+			callback: function(anchor){
+				var id=anchor+'-trigger';
+				$(id).trigger('click');
+				console.log($(id));
+			}
+		}; // Any custom options you want to use would go here
+		smoothScroll.animateScroll( hash, toggle, options );
+	}
 })
