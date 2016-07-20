@@ -906,7 +906,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 @media (max-width: 480px) {
   .header-1-sub {
-    height: 420px;
+    height: 100vh;
   }
 }
 .header-1-sub .container {
