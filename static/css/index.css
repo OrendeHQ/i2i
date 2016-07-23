@@ -1139,7 +1139,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 
 .content-21 .container {
-  height: 600px;
+  height: 635px;
 }
 
 .content-21 .features-body {
@@ -1195,7 +1195,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   box-sizing: border-box;
   padding: 20px 5px;
   float: left;
-  width: 33%;
+  width: 25%;
   text-align: center;
   font-size: 12px;
   font-weight: normal;
@@ -1216,9 +1216,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-21 .features.features-tabs .features-header .box.active {
   color: white;
-  background-color: #5F9EA0;
+  background-color: rgba(231, 76, 60, 0.85);
   display: block;
-  width: 34%;
+  width: 25%;
   border-radius: inherit;
 }
 .content-21 .features.features-tabs .features-header .box.active [class*="fui-"] {
@@ -1857,7 +1857,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: none;
-  border: 2px solid #e74c3c;
+  border: 2px solid #ff0000;
   font-size: 20px;
   font-weight: normal;
   color: #7f8c8d;
@@ -1868,7 +1868,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-8 .btn.btn-clear:hover,
 .content-8 .btn.btn-clear:focus {
-  background: #e74c3c;
+  background: #ff0000;
   color: #fff;
 }
 .content-8 .btn.btn-clear:active,
