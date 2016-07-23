@@ -43,16 +43,24 @@ p, a {
 }
 
 .brochure-btn {
-	background-color: rgb(231, 76, 60) !important;
+	background-color: #cf1c19 !important;
 	color: #ffffff !important;
 	/*margin-top: 20px;*/
 }
 
 .brochure-btn:hover {
-	background-color: #ff0000 !important;
+	background-color: #f6201d !important;
 	color: #ffffff !important;
 }
 
 .header-1 .navbar .nav > li > a:hover, .header-1 .navbar .nav > li > a.active {
-	color: rgb(231, 76, 60);
+	color: #f6201d;
+}
+
+a {
+  color: #cf1c19;
+}
+
+a:hover {
+  color: #f6201d;
 }

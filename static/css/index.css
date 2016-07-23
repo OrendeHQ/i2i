@@ -293,37 +293,37 @@ footer {
 .bg-info {
   background-color: #3498db;
 }
-.bordered {
+.borde#f6201d {
   border-style: solid;
 }
-.bordered.bg-turquoise {
+.borde#f6201d.bg-turquoise {
   border-color: #16a085;
 }
-.bordered.bg-emerland {
+.borde#f6201d.bg-emerland {
   border-color: #27ae60;
 }
-.bordered.bg-peter-river {
+.borde#f6201d.bg-peter-river {
   border-color: #2980b9;
 }
-.bordered.bg-amethyst {
+.borde#f6201d.bg-amethyst {
   border-color: #8e44ad;
 }
-.bordered.bg-wet-asphalt {
+.borde#f6201d.bg-wet-asphalt {
   border-color: #2c3e50;
 }
-.bordered.bg-sun-flower {
+.borde#f6201d.bg-sun-flower {
   border-color: #f39c12;
 }
-.bordered.bg-carrot {
+.borde#f6201d.bg-carrot {
   border-color: #d35400;
 }
-.bordered.bg-alizarin {
+.borde#f6201d.bg-alizarin {
   border-color: #c0392b;
 }
-.bordered.bg-clouds {
+.borde#f6201d.bg-clouds {
   border-color: #bdc3c7;
 }
-.bordered.bg-concrete {
+.borde#f6201d.bg-concrete {
   border-color: #7f8c8d;
 }
 html,
@@ -1216,7 +1216,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-21 .features.features-tabs .features-header .box.active {
   color: white;
-  background-color: rgba(231, 76, 60, 0.85);
+  background-color: #ff5250;
   display: block;
   width: 25%;
   border-radius: inherit;
@@ -1322,12 +1322,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 
 /*By Stanley*/
 .content-21 .features-body .row .btn {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #f6201d;
+  color: #f6201d;
 }
 
 .content-21 .features-body .row .btn:hover {
-  background-color: red;
+  background-color: #f6201d;
   color: white;
 }
 
@@ -1509,12 +1509,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 
 .projects-4 .container .row .btn {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #f6201d;
+  color: #f6201d;
 }
 
 .projects-4 .container .row .btn:hover{
-  background-color: red;
+  background-color: #f6201d;
   color: white;
 }
 
@@ -1669,12 +1669,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 /* By Stanley */
 .crew-1 .container .row .btn {
   margin-top: 70px;
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #f6201d;
+  color: #f6201d;
 }
 
 .crew-1 .container .row .btn:hover {
-  background-color: red;
+  background-color: #f6201d;
   color: white;
 }
 
@@ -1857,18 +1857,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: none;
-  border: 2px solid #ff0000;
+  border: 2px solid #f6201d;
   font-size: 20px;
   font-weight: normal;
-  color: #7f8c8d;
   font-weight: 500;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 12px 28px 12px;
-  color: #e74c3c;
+  color: #f6201d;
 }
 .content-8 .btn.btn-clear:hover,
 .content-8 .btn.btn-clear:focus {
-  background: #ff0000;
+  background: #f6201d;
   color: #fff;
 }
 .content-8 .btn.btn-clear:active,
