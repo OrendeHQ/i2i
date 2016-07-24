@@ -43,13 +43,13 @@ p, a {
 }
 
 .brochure-btn {
-	background-color: #cf1c19 !important;
+	background-color: #f6201d !important;
 	color: #ffffff !important;
 	/*margin-top: 20px;*/
 }
 
 .brochure-btn:hover {
-	background-color: #f6201d !important;
+	background-color: #ff5250 !important;
 	color: #ffffff !important;
 }
 
@@ -58,9 +58,9 @@ p, a {
 }
 
 a {
-  color: #cf1c19;
+  color: #F6201d;
 }
 
 a:hover {
-  color: #f6201d;
+  color: #ff5250;
 }

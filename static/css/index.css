@@ -1000,7 +1000,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../img/headers/index-header-2.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../../img/headers/index-header-2.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1008,7 +1008,15 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
-  background-image: url("../../startup/common-files/img/header/img-3.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../../img/headers/index-header-3.jpg");
+  opacity: 75;
+  filter: alpha(opacity=7500);
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  background-position: 50% 30%;
+}
+.header-1-sub .pt-page-4 .background {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../../img/headers/index-header-4.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1234,7 +1242,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-21 .features.features-tabs .features-bodies {
   position: relative;
-  background: #ebedee url('../../startup/common-files/img/content/screen@2x.png') 0 50% no-repeat;
+  background: #ebedee url('../../img/icons/offerSide.png') 5% 50% no-repeat;
   -webkit-background-size: 322px 418px;
   -moz-background-size: 322px 418px;
   -o-background-size: 322px 418px;

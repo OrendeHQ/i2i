@@ -986,7 +986,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../img/headers/disruptive-innovation.jpeg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../img/headers/disruptive-innovation.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
