@@ -58,9 +58,23 @@ p, a {
 }
 
 a {
-  color: #F6201d;
+  color: #f6201d;
 }
 
 a:hover {
   color: #ff5250;
+}
+
+.btn-inverse {
+  background-color: #f6201d;
+}
+
+.btn-inverse:hover {
+  background-color: #ff5250;
+}
+
+@media only screen and (min-width: 768px){
+	.content-27 .col-sm-offset-1 {
+	    margin-left: 0;
+	}
 }
