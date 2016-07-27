@@ -1104,12 +1104,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   line-height: 1.6;
 }
 .contacts-3 a {
-  color: #ff5250;
+  color: #7f8c8d;
 }
 .contacts-3 a:hover,
 .contacts-3 a:focus,
 .contacts-3 a.active {
-  color: #f6201d;
+  color: #000;
 }
 .contacts-3 form {
   margin: 30px 0 0;
