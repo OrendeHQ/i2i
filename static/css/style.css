@@ -65,6 +65,10 @@ a:hover {
   color: #ff5250;
 }
 
+a:focus {
+  color: #ff5250;
+}
+
 .btn-inverse {
   background-color: #f6201d;
 }
