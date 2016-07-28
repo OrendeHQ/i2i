@@ -998,7 +998,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background: url("../../img/headers/index-header-1.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("../../img/headers/index-header-1.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1006,7 +1006,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-2 .background {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../../img/headers/index-header-2.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("../../img/headers/index-header-2.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1014,7 +1014,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-3 .background {
-  background-image: url("../../img/headers/index-header-3.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("../../img/headers/index-header-3.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
@@ -1022,7 +1022,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-position: 50% 30%;
 }
 .header-1-sub .pt-page-4 .background {
-  background-image: url("../../img/headers/index-header-4.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url("../../img/headers/index-header-4.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
   opacity: 0.75;
