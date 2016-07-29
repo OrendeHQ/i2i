@@ -81,11 +81,11 @@ a:focus {
 	.content-27 .col-sm-offset-1 {
 	    margin-left: 0;
 	}
-}
 
-.header-1-sub .lead {
-  font-size: 24px;
-  padding: 0 30px;
+	.header-1-sub .lead {
+	  font-size: 30px;
+	  padding: 0 200px;
+	}
 }
 
 .header-1-sub #pt-main .pt-page .btn {
