@@ -5,14 +5,16 @@ POC: Dr.CJ Meadows <cj.meadows@spjain.org>
 ### Getting Started
 ```
 git clone <this-repository>
-git branch staging origin/staging
+git branch gh-pages origin/gh-pages
 ```
+
+**note**: gh-pages is the staging branch
 
 ### Development
 
 Create a new branch with name that conveys what you are working on
 ```
-git branch <name-of-the-branch> staging
+git branch <name-of-the-branch> master
 git checkout <name-of-the-branch>
 ```
 and start coding!
