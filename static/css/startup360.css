@@ -985,12 +985,18 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .header-1-sub .pt-page-1 .background {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../img/headers/startup360.jpg");
+  background: url("../../img/headers/startup360.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
+}
+.pt-page .container h3 span {
+  padding: 0 10px;
+}
+.pt-page .container h3 span, .pt-page .container p span {
+  background-color: rgba(0,0,0,0.5);
 }
 .header-1-sub .pt-page-2 .background {
   background-image: url("../../startup/common-files/img/header/img-2.jpg");

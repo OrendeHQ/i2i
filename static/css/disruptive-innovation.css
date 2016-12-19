@@ -985,11 +985,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+.pt-page .container h3 span {
+  padding: 0 10px;
+}
+.pt-page .container h3 span, .pt-page .container p span {
+  background-color: rgba(0,0,0,0.5);
+}
 .header-1-sub .pt-page-1 .background {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../../img/headers/disruptive-innovation.jpg");
+  background: url("../../img/headers/disruptive-innovation.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
