@@ -10,7 +10,8 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <link rel="shortcut icon" href="/startup/flat-ui/images/favicon.ico">
 
-        <link rel="stylesheet" href="/startup/flat-ui/bootstrap/css/bootstrap.css">
+        <!-- <link rel="stylesheet" href="/startup/flat-ui/bootstrap/css/bootstrap.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="/startup/flat-ui/css/flat-ui.css">
         <!-- Using only with Flat-UI (free)-->
         <link rel="stylesheet" href="/startup/common-files/css/icon-font.css">
@@ -166,6 +167,38 @@
                 <h6>RESEARCH</h6>
                 Hear new insights from world-leading innovators so more of us can create and build.
             </div>
+        </div>
+        <div class="row features">
+          <div class="col-sm-offset-1 col-sm-2">
+            <a data-toggle="modal" data-target="#video-1">
+              <img class="col-xs-offset-1 col-xs-10" src="/img/icons/youtube.svg" />
+              <p class="text-center">Lorem dimsum</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <a data-toggle="modal" data-target="#video-1">
+              <img class="col-xs-offset-1 col-xs-10" src="/img/icons/youtube.svg" />
+              <p class="text-center">Lorem dimsum</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <a data-toggle="modal" data-target="#video-1">
+              <img class="col-xs-offset-1 col-xs-10" src="/img/icons/youtube.svg" />
+              <p class="text-center">Lorem dimsum</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <a data-toggle="modal" data-target="#video-1">
+              <img class="col-xs-offset-1 col-xs-10" src="/img/icons/youtube.svg" />
+              <p class="text-center">Lorem dimsum</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <a data-toggle="modal" data-target="#video-1">
+              <img class="col-xs-offset-1 col-xs-10" src="/img/icons/youtube.svg" />
+              <p class="text-center">Lorem dimsum</p>
+            </a>
+          </div>
         </div>
     </div>
 </section>
@@ -595,7 +628,9 @@ In science, the fusion of two nuclei into a new, combined nucleus releases a mas
                 </div>
         </div>
     </div>
-</footer>            <!-- Placed at the end of the document so the pages load faster -->
+</footer>
+
+            <!-- Placed at the end of the document so the pages load faster -->
             <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
             <script>smoothScroll.init({speed: 1000, offset: 70})</script>
             <script>
@@ -606,11 +641,14 @@ In science, the fusion of two nuclei into a new, combined nucleus releases a mas
             </script>
             <script src='/static/js/index.js'></script>
             <script src='/static/js/animation.js'></script>
-            <script src="/startup/common-files/js/jquery-1.10.2.min.js"></script>
+            <!-- <script src="/startup/common-files/js/jquery-1.10.2.min.js"></script> -->
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="/startup/common-files/js/jquery.bxslider.min.js"></script>
             <script src="/startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
             <script src="/startup/common-files/js/jquery.sharrre.min.js"></script>
-            <script src="/startup/flat-ui/js/bootstrap.min.js"></script>
+            <!-- <script src="/startup/flat-ui/js/bootstrap.min.js"></script> -->
             <script src="/startup/common-files/js/masonry.pkgd.min.js"></script>
             <script src="/startup/common-files/js/modernizr.custom.js"></script>
             <script src="/startup/common-files/js/page-transitions.js"></script>
@@ -620,6 +658,19 @@ In science, the fusion of two nuclei into a new, combined nucleus releases a mas
             <script src="/startup/common-files/js/jquery.backgroundvideo.min.js"></script>
             <script src="/startup/common-files/js/froogaloop.min.js"></script>
             <script src="/startup/common-files/js/startup-kit.js"></script>
+        </div>
+        <div id="video-1" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span>x</span></button>
+                <h4 class="modal-title">Intro To i2i</h4>
+              </div>
+              <div class="modal-body" style="height: 70vh">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VO4QX9NXw40" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
     </body>
 </html>
