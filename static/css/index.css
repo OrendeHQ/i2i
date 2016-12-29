@@ -997,11 +997,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+.pt-page .container h3 span {
+  padding: 0 10px;
+}
+.pt-page .container h3 span, .pt-page .container p span {
+  background-color: rgba(0,0,0,0.5);
+}
 .header-1-sub .pt-page-1 .background {
   background: url("../../img/headers/index-header-1.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
@@ -1009,7 +1015,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background:  url("../../img/headers/index-header-2.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
@@ -1017,7 +1023,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-image:  url("../../img/headers/index-header-3.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
@@ -1025,7 +1031,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-image: url("../../img/headers/index-header-4.jpg");
   opacity: 75;
   filter: alpha(opacity=7500);
-  opacity: 0.75;
+  opacity: 1;
   filter: alpha(opacity=75);
   background-position: 50% 30%;
 }
