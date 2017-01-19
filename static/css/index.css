@@ -2161,3 +2161,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .feature-left p {
   font-size: 16px;
 }
+
+#videos a {
+  cursor: pointer;
+  cursor: hand;
+}
