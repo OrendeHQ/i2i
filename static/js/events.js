@@ -1,7 +1,11 @@
 var eventsList = [];
 var eventsContainer = document.querySelector('#events .events');
 
-$(document).on('click', '#all', displayEvents.bind(null, eventsList));
+$(document).on('click', '#all', function() { 
+  $('.title').children().removeClass('active');
+  $('#all').addClass('active');
+  displayEvents(eventsList); 
+});
 $(document).on('click', '#past', function() {
   var pastEvents = eventsList.filter(function(e) {return e.status === 'completed'});
 
@@ -20,7 +24,7 @@ $.ajax({
   url: 'https://www.eventbriteapi.com/v3/users/me/owned_events/?token=F6G2U7K4IPMCFCZYTSUQ',
   type: 'GET'
 }).done(function(res) {
-  eventsList = res.events;
+  eventsList = res.events.reverse();
   displayEvents(eventsList);
 }).fail(function(e) {});
 
