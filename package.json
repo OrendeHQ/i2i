@@ -1,0 +1,33 @@
+{
+  "name": "i2i",
+  "version": "1.0.0",
+  "description": "POC: Dr.CJ Meadows <cj.meadows@spjain.org>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "sudo NODE_ENV=dev nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrendeHQ/i2i.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrendeHQ/i2i/issues"
+  },
+  "homepage": "https://github.com/OrendeHQ/i2i#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "pg": "^6.1.2",
+    "pg-escape": "^0.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
