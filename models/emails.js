@@ -1,4 +1,4 @@
-modules.exports = (pg, options) => {
+module.exports = (pg, options) => {
   const client = new pg.Client(options);
   client.connect();
   const createQuery = client.query(

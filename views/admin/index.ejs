@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>i2i Admin</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>All emails in mailing list:</h3>
+      <hr />
+      <div id="mailing-list"></div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $.ajax({
+      url: '/api/emails',
+      method: 'GET'
+    }).done(function(response) {
+      $('#mailing-list').html(
+        response.map(function(r) {
+          return '<p>' + r.email + '</p>';
+        }).join('')
+      );
+    }).fail(function(e) { console.log(e) });
+  </script>
+</html>

@@ -80,6 +80,11 @@ module.exports = {
       title: 'Start360',
       customStyle: '/static/css/startup360.css'
     });
+  },
+
+  // GET /admin
+  renderAdmin(req, res) {
+    res.render('admin');
   }
 
 }
