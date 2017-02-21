@@ -5,10 +5,10 @@ POC: Dr.CJ Meadows <cj.meadows@spjain.org>
 ### Getting Started
 ```
 git clone <this-repository>
-git branch gh-pages origin/gh-pages
 ```
 
-**note**: gh-pages is the staging branch
+**note**: master is the staging branch, deploy is the deployment branch
+
 
 ### Development
 
@@ -31,4 +31,4 @@ git push -u origin <branch-name>
 
 Open your pull request and someone will review your code and merge
 
-**!Note!: Always PR to staging branch, master branch is meant for integration**
+**!Note!: Always PR to staging branch, deploy branch is meant for integration**
