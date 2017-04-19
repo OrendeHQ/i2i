@@ -1,17 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat);*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);*/
+@font-face {
+	font-family: BrandonBold;
+	src: url(/static/fonts/Brandon_bld.otf);
+}
+@font-face {
+	font-family: BrandonReg;
+	src: url(/static/fonts/Brandon_reg.otf);
+}
 
 h1, h2, h3, h4, h5, h6, .box {
-	font-family: "Montserrat" !important;
+	font-family: "BrandonBold" !important;
 }
 
 p, a, li {
-	font-family: "Roboto Slab" !important;
+	font-family: "BrandonReg" !important;
 	font-weight: 100;
 }
 
 .info, .quote-text, .quote-author, .col-sm-4, .col-sm-3 {
-	font-family: "Roboto Slab" !important;
+	font-family: "BrandonReg" !important;
 	font-weight: 100;
 }
 
