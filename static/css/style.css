@@ -111,6 +111,15 @@ a:focus {
 	color: #fff!important;
 }
 
+.header-1-sub h3 {
+	text-align: left;
+}
+
+.header-1-sub .lead {
+	text-align: left;
+	padding: 0!important;
+}
+
 @media only screen and (min-width: 768px){
 	.content-27 .col-sm-offset-1 {
 	    margin-left: 0;

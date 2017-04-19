@@ -1001,7 +1001,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding: 0 10px;
 }
 .pt-page .container h3 span, .pt-page .container p span {
-  background-color: rgba(0,0,0,0.5);
+  background-color: #fff;
+  color: #000;
 }
 .header-1-sub .pt-page-1 .background {
   background: url("../../img/headers/index-header-1.jpg");
@@ -1061,7 +1062,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: absolute;
   left: 0;
   right: 0;
-  top: 35vh;
+  /*top: 35vh;*/
+  bottom: 0;
+}
+
+.header-1-sub .container .row .btn {
+  display: none;
 }
 @media (max-width: 480px) {
   .header-1-sub .page-transitions .caption {
