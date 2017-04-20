@@ -128,6 +128,10 @@ a:focus {
 	padding: 0!important;
 }
 
+.footer-1.bg-midnight-blue {
+	background: #363636!important;
+}
+
 @media only screen and (min-width: 768px){
 	.content-27 .col-sm-offset-1 {
 	    margin-left: 0;
