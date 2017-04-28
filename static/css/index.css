@@ -1001,7 +1001,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding: 0 10px;
 }
 .pt-page .container h3 span, .pt-page .container p span {
-  background-color: #fff;
+  /*background-color: #fff;*/
   color: #000;
 }
 .header-1-sub .pt-page-1 .background {
@@ -1063,7 +1063,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   left: 0;
   right: 0;
   /*top: 35vh;*/
-  bottom: 0;
+  /*bottom: 0;*/
 }
 
 .header-1-sub .container .row .btn {
@@ -2138,6 +2138,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     margin-left: 6%;
   }
 }
+
+@media (max-width: 375px) {
+  .content-21 .features.features-tabs .features-header .box {
+    font-size: 8px;
+  }
+}
+
 .footer-1 .fb_iframe_widget {
   vertical-align: top;
 }

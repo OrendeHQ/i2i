@@ -1248,8 +1248,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   /*margin-top: 65px;*/
 }
 .project-wrapper {
-  padding-top: 80px;
-  padding-right: 25px;
+  /*padding-top: 80px;*/
+  /*padding-right: 25px;*/
+  padding: 80px 12px 0;
 }
 .projects-1 .projects .project-wrapper {
   display: table-cell;
