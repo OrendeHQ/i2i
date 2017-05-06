@@ -1831,10 +1831,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 0;
 }
 .content-18 .carousel .item {
-  -webkit-transition: 0.8s ease-in-out opacity;
+  /*-webkit-transition: 0.8s ease-in-out opacity;
   -moz-transition: 0.8s ease-in-out opacity;
   -o-transition: 0.8s ease-in-out opacity;
-  transition: 0.8s ease-in-out opacity;
+  transition: 0.8s ease-in-out opacity;*/
   display: block;
   position: absolute;
   top: 0;

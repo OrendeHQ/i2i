@@ -51,17 +51,6 @@ p, a, li {
 	padding-top: 20px;
 }
 
-.brochure-btn {
-	background-color: #f6201d !important;
-	color: #ffffff !important;
-	/*margin-top: 20px;*/
-}
-
-.brochure-btn:hover {
-	background-color: #ff5250 !important;
-	color: #ffffff !important;
-}
-
 .header-1 .navbar .nav > li > a:hover, .header-1 .navbar .nav > li > a.active {
 	color: #f6201d;
 }
@@ -124,12 +113,16 @@ a:focus {
 }
 
 .caption .container {
-	width: 500px;
+	width: 460px;
+	height: 350px;
 	max-width: 80%;
-	margin-left: 10%;
+	margin-left: 0;
 	margin-right: inherit;
 	/*top: 75px;*/
 	background-color: rgba(255,255,255,.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .pt-page .container h3 span, .pt-page .container p span {
@@ -172,11 +165,34 @@ a:focus {
 }
 
 .footer-1.bg-midnight-blue {
-	background: #f5f5f5!important;
+	background: #f5f5f5;
 }
 
 .footer-1.bg-midnight-blue * {
-	color: #000!important;
+	color: #000;
+}
+
+[class^="logo"] {
+	height: 50px!important;
+}
+
+.brand {
+	padding-top: 23px!important;
+}
+
+.header-1-startup-antiflicker {
+	height: 75px!important;
+}
+
+.footer-1 .container .brochure-btn {
+	background: transparent;
+	border: 2px solid #f6201d;
+	color: #f6201d;
+}
+
+.footer-1 .container .brochure-btn:hover {
+	background: #f6201d;
+	color: #fff;
 }
 
 @media only screen and (min-width: 768px){

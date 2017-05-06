@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	var headerAutoSlide = setInterval(function(){
-		$("a.control-prev").trigger("click");
+		$("a.control-next").trigger("click");
 	}, 11000);
 })
