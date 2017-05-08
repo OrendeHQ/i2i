@@ -998,7 +998,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   transform-style: preserve-3d;
 }
 .pt-page .container h3 span {
-  padding: 0 10px;
+  /*padding: 0 10px;*/
+  margin-left: -5px;
 }
 .pt-page .container h3 span, .pt-page .container p span {
   /*background-color: #fff;*/
