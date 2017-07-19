@@ -2164,6 +2164,17 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-left: 0;
   padding-right: 30px;
 }
+ @media (max-width: 767px) {
+   .content-26 .features .right-block {
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+
+   .content-26 .features .left-block {
+     padding-left: 15px;
+     padding-right: 15px;
+   }
+ }
 
 .feature-left {
   padding: 95px 50px 0 32px;
