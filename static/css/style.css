@@ -96,6 +96,14 @@ a:focus {
 	filter: invert(100%);
 }
 
+body > .navbar-collapse {
+	background: #f5f5f5;
+}
+body > .navbar-collapse .nav > li > a {
+	border-bottom: none;
+	font-weight: bold;
+}
+
 .brand .logo-reduced {
 	display: none;
 }
@@ -123,6 +131,12 @@ a:focus {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+.caption .container h3, .caption .container .lead {
+	text-align: left!important;
+}
+.caption .container h3 span {
+	padding: 0;
 }
 
 .pt-page .container h3 span, .pt-page .container p span {
@@ -174,10 +188,14 @@ a:focus {
 
 [class^="logo"] {
 	height: 50px!important;
+	width: auto!important;
 }
 
 .brand {
 	padding-top: 23px!important;
+}
+.brand.brand-reduced {
+	padding-top: 16px!important;
 }
 
 .header-1-startup-antiflicker {
@@ -193,6 +211,12 @@ a:focus {
 .footer-1 .container .brochure-btn:hover {
 	background: #f6201d;
 	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.caption .container {
+		height: 300px;
+	}
 }
 
 @media only screen and (min-width: 768px){

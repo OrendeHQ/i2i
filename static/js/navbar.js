@@ -1,5 +1,7 @@
-$(document).on('scroll', function() {
-   if (this.body.scrollTop > window.innerHeight) {
+var $document = $(document);
+
+$document.on('scroll', function() {
+   if ($document.scrollTop() > window.innerHeight) {
      $('.navbar-overlay').css('opacity', '0');
      $('.brand').addClass('brand-reduced');
    } else {
