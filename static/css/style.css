@@ -179,6 +179,9 @@ a:focus {
 .brand {
 	padding-top: 23px!important;
 }
+.brand.brand-reduced {
+	padding-top: 16px!important;
+}
 
 .header-1-startup-antiflicker {
 	height: 75px!important;
