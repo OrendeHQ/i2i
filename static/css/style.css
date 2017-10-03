@@ -195,6 +195,12 @@ a:focus {
 	color: #fff;
 }
 
+@media only screen and (max-width: 768px) {
+	.caption .container {
+		height: 300px;
+	}
+}
+
 @media only screen and (min-width: 768px){
 	.content-27 .col-sm-offset-1 {
 	    margin-left: 0;
