@@ -132,6 +132,12 @@ body > .navbar-collapse .nav > li > a {
 	flex-direction: column;
 	justify-content: space-around;
 }
+.caption .container h3, .caption .container .lead {
+	text-align: left!important;
+}
+.caption .container h3 span {
+	padding: 0;
+}
 
 .pt-page .container h3 span, .pt-page .container p span {
   color: #000;
