@@ -1237,6 +1237,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   opacity: 0.4;
   filter: alpha(opacity=40);
 }
+.projects-4:not(.exp-clients) .project-wrapper {
+  min-height: 250px;
+}
+@media only screen and (max-width: 991px) {
+  .projects-4:not(.exp-clients) .project-wrapper {
+    min-height: 260px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .projects-4:not(.exp-clients) .project-wrapper {
     min-height: 270px;
