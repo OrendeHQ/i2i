@@ -1,96 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="shortcut icon" href="/startup/flat-ui/images/favicon.ico">
 
-        <link rel="stylesheet" href="/startup/flat-ui/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="/startup/flat-ui/css/flat-ui.css">
-        <!-- Using only with Flat-UI (free)-->
-        <link rel="stylesheet" href="/startup/common-files/css/icon-font.css">
-        <!-- end -->
-        <link rel="stylesheet" href="/startup/common-files/css/animations.css">
-        <link rel="stylesheet" href="/static/css/people.css">
-        <link rel="stylesheet" href="/static/css/style.css">
-        <title>People@i2i</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="shortcut icon" href="/startup/flat-ui/images/favicon.ico">
 
-    <body>
+    <link rel="stylesheet" href="/startup/flat-ui/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/startup/flat-ui/css/flat-ui.css">
+    <!-- Using only with Flat-UI (free)-->
+    <link rel="stylesheet" href="/startup/common-files/css/icon-font.css">
+    <!-- end -->
+    <link rel="stylesheet" href="/startup/common-files/css/animations.css">
+    <link rel="stylesheet" href="/static/css/people.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>People@i2i</title>
+</head>
+
+<body>
     <div class="page-wrapper">
-      <header class="header-1">
-              <div class="container">
-                  <div class="row">
-                      <div class="navbar col-sm-12 navbar-fixed-top" role="navigation">
-                          <div class="navbar-header">
-                              <button type="button" class="navbar-toggle"></button>
-                              <a class="brand" href="/">
+        <header class="header-1">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar col-sm-12 navbar-fixed-top" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle"></button>
+                            <a class="brand" href="/">
                                 <img class="logo" src="/img/logo.png" width="240" alt="">
                                 <img class="logo-reduced" src="/img/logo-reduced.gif" />
-                              </a>
-                          </div>
-                          <div class="navbar-collapse collapse">
-                              <ul class="nav pull-right">
-                                  <li>
-                                      <a href="/">HOME</a>
-                                  </li>
-                                  <li>
-                                      <a href="/#about" data-scroll>ABOUT</a>
-                                  </li>
-                                  <li class="dropdown">
-                                      <a href="/#offer" data-scroll class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">EDUCATION&middot;CONSULTING  &dtrif;</a>
-                                      <ul class="dropdown-menu">
-                                          <li><a href="/customer-insight-innovation">CUSTOMER INSIGHT INNOVATION</a></li>
-                                          <li><a href="/disruptive-innovation">DISRUPTIVE INNOVATION</a></li>
-                                          <li><a href="/startup360">STARTUP360</a></li>
-                                          <li><a href="/custom-service">CUSTOM SERVICES</a></li>
-                                      </ul>
-                                  </li>
-                                  <li>
-                                      <a href="https://fusion.innovationi2i.com" target="_blank">FUSION</a>
-                                  </li>
-                                  <li>
-                                      <a href="/clients">CLIENTS</a>
-                                  </li>
-                                  <li class="dropdown">
-                                      <a href="/people" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">TEAM &dtrif;</a>
-                                      <ul class="dropdown-menu">
-                                        <li><a data-scroll href="#advisors" onclick="$('#advisors-trigger').trigger('click')">ADVISORY BOARD</a></li>
-                                        <li><a data-scroll href="#management" onclick="$('#management-trigger').trigger('click')">MANAGEMENT TEAM</a></li>
-                                        <li><a data-scroll href="#mentors" onclick="$('#mentors-trigger').trigger('click')">MENTORS</a></li>
-                                        <li><a data-scroll href="#founding" onclick="$('#founding-trigger').trigger('click')">STARTUP TEAM</a></li>
-                                      </ul>
-                                  </li>
-                                  <li>
+                            </a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav pull-right">
+                                <li>
+                                    <a href="/">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="/#about" data-scroll>ABOUT</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/#offer" data-scroll class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">EDUCATION&middot;CONSULTING &dtrif;</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="/customer-insight-innovation">CUSTOMER INSIGHT INNOVATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="/disruptive-innovation">DISRUPTIVE INNOVATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="/startup360">STARTUP360</a>
+                                        </li>
+                                        <li>
+                                            <a href="/custom-service">CUSTOM SERVICES</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://fusion.innovationi2i.com" target="_blank">FUSION</a>
+                                </li>
+                                <li>
+                                    <a href="/clients">CLIENTS</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="/people" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">TEAM &dtrif;</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a data-scroll href="#advisors" onclick="$('#advisors-trigger').trigger('click')">ADVISORY BOARD</a>
+                                        </li>
+                                        <li>
+                                            <a data-scroll href="#management" onclick="$('#management-trigger').trigger('click')">MANAGEMENT TEAM</a>
+                                        </li>
+                                        <li>
+                                            <a data-scroll href="#mentors" onclick="$('#mentors-trigger').trigger('click')">MENTORS</a>
+                                        </li>
+                                        <li>
+                                            <a data-scroll href="#founding" onclick="$('#founding-trigger').trigger('click')">STARTUP TEAM</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
                                     <a href="/events">EVENTS</a>
-                                  </li>
-                                  <li>
-                                      <a href="/contact">CONTACT US</a>
-                                  </li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="navbar-overlay"></div>
-          </header>
-<section class="header-1-sub">
-    <div id="pt-main" class="page-transitions pt-perspective">
-        <div class="pt-page pt-page-1">
-            <div class="background">&nbsp;</div>
-            <div class="caption">
-                <div class="container">
-                    <h3><span>PEOPLE</span></h3>
-                    <p class="lead"><span>Meet the faces behind i2i.</span></p>
+                                </li>
+                                <li>
+                                    <a href="/contact">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-<!--         <div class="pt-page pt-page-2">
+            <div class="navbar-overlay"></div>
+        </header>
+        <section class="header-1-sub">
+            <div id="pt-main" class="page-transitions pt-perspective">
+                <div class="pt-page pt-page-1">
+                    <div class="background">&nbsp;</div>
+                    <div class="caption">
+                        <div class="container">
+                            <h3>
+                                <span>PEOPLE</span>
+                            </h3>
+                            <p class="lead">
+                                <span>Meet the faces behind i2i.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--         <div class="pt-page pt-page-2">
             <div class="background">&nbsp;</div>
             <div class="caption">
                 <div class="container">
@@ -112,22 +133,22 @@
             <a class="control-prev" href="#"><span class="fui-arrow-left"> </span></a>
             <a class="control-next" href="#"><span class="fui-arrow-right"> </span></a>
         </div> -->
-    </div>
-</section>
-<div id="advisors"></div>
-<div id="management"></div>
-<div id="founding"></div>
-<div id="mentors"></div>
-<section class="projects-1">
-    <div class="container">
-        <div class="title">
-            <a id="all" class="active">|everyone|</a>
-            <a id="advisors-trigger">|advisory board|</a>
-            <a id="management-trigger">|management team|</a>
-            <a id="mentors-trigger">|mentors|</a>
-            <a id="founding-trigger">|startup team|</a>
-        </div>
-<!--         <div class="head-box">
+            </div>
+        </section>
+        <div id="advisors"></div>
+        <div id="management"></div>
+        <div id="founding"></div>
+        <div id="mentors"></div>
+        <section class="projects-1">
+            <div class="container">
+                <div class="title">
+                    <a id="all" class="active">|everyone|</a>
+                    <a id="advisors-trigger">|advisory board|</a>
+                    <a id="management-trigger">|management team|</a>
+                    <a id="mentors-trigger">|mentors|</a>
+                    <a id="founding-trigger">|startup team|</a>
+                </div>
+                <!--         <div class="head-box">
             <div class="brand"><img src="/startup/common-files/icons/logo-2@2x.png" width="42" height="21" alt=""> Startup</div>
             <p>Responsive web design is a web design approach aimed at crafting sites.</p>
 
@@ -142,946 +163,1291 @@
         </div>
  -->
 
-        <div class="projects">
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/peterovery1973" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/PeterOvery.jpg" alt="Peter Overy"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Peter Overy</div>
-                            <b>Co-Founder, AGENCY<br/></b>Former IDEO
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/brianling" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/BrianLing.jpg" alt="Brian Ling"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Brian Ling</div>
-                            <b>DesignSojourn<br></b>Design &amp; Creative Director
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/tedsaad" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/TedSaad.jpg" alt="Ted Saad"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ted Saad</div>
-                            <b>Multi Emmy Award-Winning<br></b>Executive Producer, NY</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <a href="//in.linkedin.com/in/ajaynanavati" target='_blank'>
-                    <div class="project">
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/AjayNanavati.jpg" alt="Ajay Nanavanti"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ajay Nanavati</div>
-                            <b>3M<br></b>MD, India (retired)</b>
+                <div class="projects">
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/peterovery1973" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/PeterOvery.jpg" alt="Peter Overy">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Peter Overy</div>
+                                    <b>Co-Founder, AGENCY
+                                        <br/>
+                                    </b>Former IDEO
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </a>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/zee-upton-67251b6b" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/ZeeUpton.jpg" alt="Dr. Zee Upton"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Zee Upton</div>
-                            <b>A<sup>*</sup>STAR<br></b>Research Director</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/clmarshall1" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/ChrisMarshall.jpg" alt="Chris Marshall"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Chris Marshall</div>
-                            <b>IBM<br></b>Partner, Financial Services</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/vishrut-jain-b18381" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/VishJain.png" alt="Vish Jain"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Vish Jain</div>
-                            <b>BCG<br></b>Partner (retired)</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/stefan-hart-4aabbb10" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/StefanHart.jpg" alt="Stefan Hart"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Stefan Hart</div>
-                            <b>Johnson &amp; Johnson<br></b>Director Innovation, SEAsia</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper advisors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/roland-smith-2194267" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/advisory/RolandSmith.jpg" alt="Roland Smith"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Roland Smith</div>
-                            <b>Center for Creative Leadership<br></b>VP, APAC</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/drcjmeadows" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/CJ.jpg" alt="Dr. CJ Meadows"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. CJ Meadows</div>
-                            <b>i2i Director</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href='//ae.linkedin.com/in/profchrisabraham' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/ChristopherAbraham.jpg" alt="Christopher Abraham"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Prof. Christopher Abraham</div>
-                            <b>i2i Head - Dubai</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href="//in.linkedin.com/in/talwarv" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/VishalTalwar.jpg" alt="Vishal Talwar"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Vishal Talwar</div>
-                            <b>i2i Head - Mumbai</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href="https://au.linkedin.com/in/john-miles-129a0521" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/JohnMiles.jpg" alt="John Miles"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">John Miles</div>
-                            <b>i2i Head - Sydney</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/LeePohChin.jpg" alt="Lee Poh Chin"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Dr. Lee Poh Chin</div>
-                            <b>i2i Research Assistant</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/shareff" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/ShareffUthuman.jpeg" alt="Shareff Uthuman"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Shareff Uthuman</div>
-                            <b>i2i Executive</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper management">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/gladys-lee-61489330" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/management/GladysLee.jpg" alt="Gladys Lee"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Gladys Lee</div>
-                            <b>Marketing Communications Manager<br /></b>S.E Asia @ SP Jain
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/vishal-sarin-2874472" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/VishalSarin.jpg" alt="Vishal Sarin"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Vishal Sarin</div>
-                            <b>YouTube in SE Asia<br></b>Content Partnerships &amp; Business Development Head</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/douglasabrams" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/DouglasAbrams.jpg" alt="Douglas Abrams"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Douglas Abrams</div>
-                            <b>Expara</b><br />CEO &amp; Venture Capitalist
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/vikramsud" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/VikramSud.jpg" alt="Vikram Sud"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Vikram Sud</div>
-                            <b>Citi Group<br></b>O&amp;T APAC Head (retired)</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/elaine-rodrigo-3b25b84" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ElaineRodrigo.jpg" alt="Elaine Rodrigo"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Elaine Rodrigo</div>
-                            <b>Danone<br></b>Chief Officer, Strategy &amp; Insights</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/prashant-parekh-b84ab6" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/PrashantParekh.jpg" alt="Prashant Parekh"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Prashant Parekh</div>
-                            <b>Spinta Accelerator<br></b>CEO &amp; Co-Founder</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//in.linkedin.com/in/amit-dasgupta-7327b1101" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/AmitDasgupta.png" alt="Amit Dasgupta"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Amit Dasgupta</div>
-                            <b>University of New South Wales, Sydney, Australia<br></b>Inaugural India Country Director</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/gkvanpatter" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/VanPatter.jpg" alt="Van Patter"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Garry Van Patter</div>
-                            <b>Humantific<br></b>Design Consultant, Author</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/epastor" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ElizabethPastor.jpg" alt="Elizabeth Pastor"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Elizabeth Pastor</div>
-                            <b>Humantific<br></b>Visual Sense-Maker</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/cangels" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/CharlieAng.png" alt="Charlie Ang"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Charlie Ang</div>
-                            <b>Futurist, Entrepreneur, Venture Capitalist</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/asiltoksal" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/AsilToksal.jpg" alt="Asil Toksal"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Asil Toksal</div>
-                            <b>Vertic<br></b>Head of Strategy &amp; Innovation, US &amp; Americas</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/damienyee" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/DamienYee.jpg" alt="Damien Yee"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Damien Yee</div>
-                            <b>CXS PTE LTD</br></b>
-                            Chief Learning Officer
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/toby-ouvry-201b6924" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/TobyOuvry.jpg" alt="Toby Ouvry"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Toby Ouvry</div>
-                            <b>Integral Meditation Asia</br></b>
-                            Founder and Principal Faciliatator
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/GitaMathur.jpg" alt="Gita Mathur"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Gita Mathur</div>
-                            <b>Sillicon Valley Innovation<br></b>Process Educator</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.edygreenblatt.com/" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/EdyGreenblatt.jpg" alt="Edy Greenblatt"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Edy Greenblatt</div>
-                            <b>Leadership Educator<br></b>PhD Harvard</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/ketki-sen-0361314" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/KetkiSen.jpg" alt="Ketki Sen"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ketki Sen</div>
-                            <b>Spinta Accelerator<br></b>Partner &amp; Co-Founder</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/PeterAndrews.jpg" alt="Peter Andrews"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Peter Andrews</div>
-                            <b>Queensland<br></b>Former Chief Scientist</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//fr.linkedin.com/in/thierrydelarue" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ThierryDelarue.jpg" alt="Thierry Delarue"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Thierry Delarue</div>
-                            <b>Rexel<br></b>Group SVP, Strategy, Business Transformation, and M&amp;A</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/gkongsg" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/OngGinKeat.jpg" alt="Ong Gin Keat"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ong Gin Keat</div>
-                            <b>Uniflow Power Singapore Pte Ltd</br></b>
-                            Director
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/thomaspmartin" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ThomasMartin.jpg" alt="Thomas Martin"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Thomas Martin</div>
-                            <b>Forward Intelligence Group</br></b>
-                            CEO
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/sean-leas-a459295" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/SeanLeas.jpg" alt="Sean Leas"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Sean Leas</div>
-                            <b>Smollan Group<br></b>Executive Director</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ZafarAnjum.jpg" alt="Zafar Anjum"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Zafar Anjum</div>
-                            <b>StartupCapitals<br></b>Author &amp; Co-Founder</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/strategyideas" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/IrvingSequeira.jpg" alt="Irving Sequeira"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Irving Sequeira</div>
-                            <b>DBS Bank<br/></b>Fintech Leader (Strategy and Analytics)</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//ae.linkedin.com/in/ashish-patel-25970b10" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/AshishPatel.jpg" alt="Ashish Patel"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ashish Patel</div>
-                            <b>Accelerator Consultant</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/ronitleora" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/RonitLeora.jpg" alt="Ronit Leora"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ronit Leora</div>
-                            <b>RL Strategic Consulting</b>
-                            Consultant
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/padminipandya?authType=NAME_SEARCH&authToken=ReWk&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A6106190%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1478682567379%2Ctas%3APadmini%20Pandya%20" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/PadminiPandya.jpg" alt="Padmini Pandya"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Padmini Pandya</div>
-                            <b>Citrix</br></b>Strategy &amp; Planning, Asia Pacific &amp; Japan</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/nipun-mehrotra-907a53" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/NipunMehrotra.JPG" alt="Nipun Mehrotra"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Nipun Mehrotra</div>
-                            <b>IBM India &amp; South Asia<br/></b>Chief Digital Officer
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/paulbradley26?authType=NAME_SEARCH&authToken=Yf8Y&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A14594935%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1478683752408%2Ctas%3APaul%20Bradley" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/PaulBradley.jpg" alt="Paul Bradley"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Paul Bradley</div>
-                            <b>Caprica International</br></b>Chairman and CEO</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/ruchira-chaudhary-89757b?authType=NAME_SEARCH&authToken=XD8A&locale=en_US&srchid=2586171478683790221&srchindex=1&srchtotal=7&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478683790221%2CVSRPtargetId%3A1409587%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/RuchiraChaudhary.JPG" alt="Ruchira Chaudhary"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Ruchira Chaudhary</div>
-                            <b>MA&amp;I</br></b>Advisor &amp; Org Design Specialist</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/komalsahu?authType=NAME_SEARCH&authToken=c3qd&locale=en_US&srchid=2586171478683811926&srchindex=1&srchtotal=66&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478683811926%2CVSRPtargetId%3A24572723%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH%20-%20grdient.com" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/KomalSahu.jpg" alt="Komal Sahu"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Komal Sahu</div>
-                            <b>Bakipa</b>
-                            Mentor &amp; Investor
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/agn%C3%A8s-hugot-specialsituations?authType=NAME_SEARCH&authToken=lil7&locale=en_US&srchid=2586171478684012136&srchindex=1&srchtotal=6&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478684012136%2CVSRPtargetId%3A58331662%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/AgnesHugot.jpeg" alt="Agnès Hugot"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Agnès Hugot</div>
-                            <b>FinTech, InsurTech &amp; Special Situations</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/turrin?authType=NAME_SEARCH&authToken=9edJ&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A22993137%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1480316227211%2Ctas%3Arichard%20turrin" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/RichardTurrin.jpg" alt="Richard Turrin"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Richard Turrin</div>
-                            <b>IBM</br></b>Fintech Executive</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/arun-sundar-2290237/" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/ArunSundar.jpg" alt="Arun Sundar"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Arun Sundar</div>
-                            <b>TrustSphere</br></b>Chief Strategy Officer</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/ramanarora" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/RamanArora.jpg" alt="Raman Arora"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Raman Arora</div>
-                            <b>Quantium Solutions - Singapore Post Ltd</br></b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.grdient.com" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/Grdient.png" alt="Grdient"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Grdient</div>
-                            <b>Group of mentors</br></b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper mentors">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/jinzwicky/" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/mentors/JinKang.jpg" alt="Jin Kang Møller"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Jin Kang Møller</div>
-                            <b>OCBC Bank</br></b>
-                            VP, Experience Design
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href="//de.linkedin.com/in/mariaangelapastoriza" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/Maria.jpg" alt="Maria Angela"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Maria Angela</div>
-                            <b>Marketing &amp; PR</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href="//www.linkedin.com/in/kenaia-neuman-a666a658" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/KenaiaNeuman.jpg" alt="Kenaia Neuman"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Kenaia Neuman</div>
-                            <b>Writer &amp; Blog Editor</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/LeoTran.jpg" alt="Leo Tran"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Leo Tran</div>
-                            <b>Web Guy</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/MajduleenDaker.jpg" alt="Majduleen Daker"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Majduleen Daker</div>
-                            <b>Web Gal</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/StanleyNguyen.jpg" alt="Stanley Nguyen"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Stanley Nguyen</div>
-                            <b>Design &amp; Technology</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href="//sg.linkedin.com/in/buntong-yun-3139a2b7" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/BuntongYun.jpg" alt="Buntong Yun"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Buntong Yun</div>
-                            <b>Design &amp; Technology</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href='http://linkedin.com' target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/Shuhei.jpg" alt="Shuhei Tashiro"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Shuhei Tashiro</div>
-                            <b>Design &amp; Technology</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href="//ph.linkedin.com/in/alex-co-a09b8b34" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/AlexCo.jpg" alt="Alex Co"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Alex Co</div>
-                            <b>Startup Team</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="project-wrapper founding">
-                <div class="project">
-                    <a href="//ph.linkedin.com/in/alyssa-cruz-b89763b4" target='_blank'>
-                        <div class="photo-wrapper">
-                            <div class="photo"><img src="/img/people/founding/AlyssaCruz.jpg" alt="Alyssa Cruz"></div>
-                            <div class="overlay"><span class="fui-linkedin"></span></div>
-                        </div>
-                        <div class="info">
-                            <div class="name">Alyssa Cruz</div>
-                            <b>Startup Team</b>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        <!-- </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/brianling" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/BrianLing.jpg" alt="Brian Ling">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Brian Ling</div>
+                                    <b>DesignSojourn
+                                        <br>
+                                    </b>Design &amp; Creative Director
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/tedsaad" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/TedSaad.jpg" alt="Ted Saad">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ted Saad</div>
+                                    <b>Multi Emmy Award-Winning
+                                        <br>
+                                    </b>Executive Producer, NY</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <a href="//in.linkedin.com/in/ajaynanavati" target='_blank'>
+                            <div class="project">
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/AjayNanavati.jpg" alt="Ajay Nanavanti">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ajay Nanavati</div>
+                                    <b>3M
+                                        <br>
+                                    </b>MD, India (retired)</b>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/zee-upton-67251b6b" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/ZeeUpton.jpg" alt="Dr. Zee Upton">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. Zee Upton</div>
+                                    <b>A
+                                        <sup>*</sup>STAR
+                                        <br>
+                                    </b>Research Director</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/clmarshall1" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/ChrisMarshall.jpg" alt="Chris Marshall">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. Chris Marshall</div>
+                                    <b>IBM
+                                        <br>
+                                    </b>Partner, Financial Services</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/vishrut-jain-b18381" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/VishJain.png" alt="Vish Jain">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Vish Jain</div>
+                                    <b>BCG
+                                        <br>
+                                    </b>Partner (retired)</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/stefan-hart-4aabbb10" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/StefanHart.jpg" alt="Stefan Hart">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. Stefan Hart</div>
+                                    <b>Johnson &amp; Johnson
+                                        <br>
+                                    </b>Director Innovation, SEAsia</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper advisors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/roland-smith-2194267" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/advisory/RolandSmith.jpg" alt="Roland Smith">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. Roland Smith</div>
+                                    <b>Center for Creative Leadership
+                                        <br>
+                                    </b>VP, APAC</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/drcjmeadows" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/CJ.jpg" alt="Dr. CJ Meadows">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. CJ Meadows</div>
+                                    <b>i2i Director</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href='//ae.linkedin.com/in/profchrisabraham' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/ChristopherAbraham.jpg" alt="Christopher Abraham">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Prof. Christopher Abraham</div>
+                                    <b>i2i Head - Dubai</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href="//in.linkedin.com/in/santoshbagwe" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/SantoshBagwe.jpg" alt="Santosh Bagwe">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Santosh Bagwe</div>
+                                    <b>i2i Head - Mumbai</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href="https://au.linkedin.com/in/john-miles-129a0521" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/JohnMiles.jpg" alt="John Miles">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">John Miles</div>
+                                    <b>i2i Head - Sydney</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/LeePohChin.jpg" alt="Lee Poh Chin">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Dr. Lee Poh Chin</div>
+                                    <b>Emeritus Research Associate</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/shareff" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/ShareffUthuman.jpeg" alt="Shareff Uthuman">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Shareff Uthuman</div>
+                                    <b>i2i Executive</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper management">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/gladys-lee-61489330" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/management/GladysLee.jpg" alt="Gladys Lee">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Gladys Lee</div>
+                                    <b>Marketing Communications Manager
+                                        <br />
+                                    </b>S.E Asia @ SP Jain
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/vishal-sarin-2874472" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/VishalSarin.jpg" alt="Vishal Sarin">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Vishal Sarin</div>
+                                    <b>YouTube in SE Asia
+                                        <br>
+                                    </b>Content Partnerships &amp; Business Development Head</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/douglasabrams" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/DouglasAbrams.jpg" alt="Douglas Abrams">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Douglas Abrams</div>
+                                    <b>Expara</b>
+                                    <br />CEO &amp; Venture Capitalist
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/vikramsud" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/VikramSud.jpg" alt="Vikram Sud">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Vikram Sud</div>
+                                    <b>Citi Group
+                                        <br>
+                                    </b>O&amp;T APAC Head (retired)</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/elaine-rodrigo-3b25b84" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ElaineRodrigo.jpg" alt="Elaine Rodrigo">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Elaine Rodrigo</div>
+                                    <b>Danone
+                                        <br>
+                                    </b>Chief Officer, Strategy &amp; Insights</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/prashant-parekh-b84ab6" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/PrashantParekh.jpg" alt="Prashant Parekh">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Prashant Parekh</div>
+                                    <b>Spinta Accelerator
+                                        <br>
+                                    </b>CEO &amp; Co-Founder</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//in.linkedin.com/in/amit-dasgupta-7327b1101" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/AmitDasgupta.png" alt="Amit Dasgupta">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Amit Dasgupta</div>
+                                    <b>University of New South Wales, Sydney, Australia
+                                        <br>
+                                    </b>Inaugural India Country Director</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/gkvanpatter" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/VanPatter.jpg" alt="Van Patter">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Garry Van Patter</div>
+                                    <b>Humantific
+                                        <br>
+                                    </b>Design Consultant, Author</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/epastor" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ElizabethPastor.jpg" alt="Elizabeth Pastor">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Elizabeth Pastor</div>
+                                    <b>Humantific
+                                        <br>
+                                    </b>Visual Sense-Maker</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/cangels" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/CharlieAng.png" alt="Charlie Ang">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Charlie Ang</div>
+                                    <b>Futurist, Entrepreneur, Venture Capitalist</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/asiltoksal" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/AsilToksal.jpg" alt="Asil Toksal">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Asil Toksal</div>
+                                    <b>Vertic
+                                        <br>
+                                    </b>Head of Strategy &amp; Innovation, US &amp; Americas</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/damienyee" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/DamienYee.jpg" alt="Damien Yee">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Damien Yee</div>
+                                    <b>CXS PTE LTD</br>
+                                    </b>
+                                    Chief Learning Officer
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/toby-ouvry-201b6924" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/TobyOuvry.jpg" alt="Toby Ouvry">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Toby Ouvry</div>
+                                    <b>Integral Meditation Asia</br>
+                                    </b>
+                                    Founder and Principal Faciliatator
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/GitaMathur.jpg" alt="Gita Mathur">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Gita Mathur</div>
+                                    <b>Sillicon Valley Innovation
+                                        <br>
+                                    </b>Process Educator</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.edygreenblatt.com/" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/EdyGreenblatt.jpg" alt="Edy Greenblatt">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Edy Greenblatt</div>
+                                    <b>Leadership Educator
+                                        <br>
+                                    </b>PhD Harvard</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/ketki-sen-0361314" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/KetkiSen.jpg" alt="Ketki Sen">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ketki Sen</div>
+                                    <b>Spinta Accelerator
+                                        <br>
+                                    </b>Partner &amp; Co-Founder</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/PeterAndrews.jpg" alt="Peter Andrews">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Peter Andrews</div>
+                                    <b>Queensland
+                                        <br>
+                                    </b>Former Chief Scientist</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//fr.linkedin.com/in/thierrydelarue" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ThierryDelarue.jpg" alt="Thierry Delarue">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Thierry Delarue</div>
+                                    <b>Rexel
+                                        <br>
+                                    </b>Group SVP, Strategy, Business Transformation, and M&amp;A</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/gkongsg" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/OngGinKeat.jpg" alt="Ong Gin Keat">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ong Gin Keat</div>
+                                    <b>Uniflow Power Singapore Pte Ltd</br>
+                                    </b>
+                                    Director
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/thomaspmartin" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ThomasMartin.jpg" alt="Thomas Martin">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Thomas Martin</div>
+                                    <b>Forward Intelligence Group</br>
+                                    </b>
+                                    CEO
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/sean-leas-a459295" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/SeanLeas.jpg" alt="Sean Leas">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Sean Leas</div>
+                                    <b>Smollan Group
+                                        <br>
+                                    </b>Executive Director</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ZafarAnjum.jpg" alt="Zafar Anjum">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Zafar Anjum</div>
+                                    <b>StartupCapitals
+                                        <br>
+                                    </b>Author &amp; Co-Founder</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/strategyideas" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/IrvingSequeira.jpg" alt="Irving Sequeira">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Irving Sequeira</div>
+                                    <b>DBS Bank
+                                        <br/>
+                                    </b>Fintech Leader (Strategy and Analytics)</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//ae.linkedin.com/in/ashish-patel-25970b10" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/AshishPatel.jpg" alt="Ashish Patel">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ashish Patel</div>
+                                    <b>Accelerator Consultant</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/ronitleora" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/RonitLeora.jpg" alt="Ronit Leora">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ronit Leora</div>
+                                    <b>RL Strategic Consulting</b>
+                                    Consultant
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/padminipandya?authType=NAME_SEARCH&authToken=ReWk&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A6106190%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1478682567379%2Ctas%3APadmini%20Pandya%20"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/PadminiPandya.jpg" alt="Padmini Pandya">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Padmini Pandya</div>
+                                    <b>Citrix</br>
+                                    </b>Strategy &amp; Planning, Asia Pacific &amp; Japan</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/nipun-mehrotra-907a53" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/NipunMehrotra.JPG" alt="Nipun Mehrotra">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Nipun Mehrotra</div>
+                                    <b>IBM India &amp; South Asia
+                                        <br/>
+                                    </b>Chief Digital Officer
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/paulbradley26?authType=NAME_SEARCH&authToken=Yf8Y&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A14594935%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1478683752408%2Ctas%3APaul%20Bradley"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/PaulBradley.jpg" alt="Paul Bradley">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Paul Bradley</div>
+                                    <b>Caprica International</br>
+                                    </b>Chairman and CEO</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/ruchira-chaudhary-89757b?authType=NAME_SEARCH&authToken=XD8A&locale=en_US&srchid=2586171478683790221&srchindex=1&srchtotal=7&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478683790221%2CVSRPtargetId%3A1409587%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/RuchiraChaudhary.JPG" alt="Ruchira Chaudhary">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Ruchira Chaudhary</div>
+                                    <b>MA&amp;I</br>
+                                    </b>Advisor &amp; Org Design Specialist</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/komalsahu?authType=NAME_SEARCH&authToken=c3qd&locale=en_US&srchid=2586171478683811926&srchindex=1&srchtotal=66&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478683811926%2CVSRPtargetId%3A24572723%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH%20-%20grdient.com"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/KomalSahu.jpg" alt="Komal Sahu">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Komal Sahu</div>
+                                    <b>Bakipa</b>
+                                    Mentor &amp; Investor
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/agn%C3%A8s-hugot-specialsituations?authType=NAME_SEARCH&authToken=lil7&locale=en_US&srchid=2586171478684012136&srchindex=1&srchtotal=6&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A2586171478684012136%2CVSRPtargetId%3A58331662%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/AgnesHugot.jpeg" alt="Agnès Hugot">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Agnès Hugot</div>
+                                    <b>FinTech, InsurTech &amp; Special Situations</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/turrin?authType=NAME_SEARCH&authToken=9edJ&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A22993137%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1480316227211%2Ctas%3Arichard%20turrin"
+                                target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/RichardTurrin.jpg" alt="Richard Turrin">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Richard Turrin</div>
+                                    <b>IBM</br>
+                                    </b>Fintech Executive</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/arun-sundar-2290237/" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/ArunSundar.jpg" alt="Arun Sundar">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Arun Sundar</div>
+                                    <b>TrustSphere</br>
+                                    </b>Chief Strategy Officer</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/ramanarora" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/RamanArora.jpg" alt="Raman Arora">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Raman Arora</div>
+                                    <b>Quantium Solutions - Singapore Post Ltd</br>
+                                    </b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.grdient.com" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/Grdient.png" alt="Grdient">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Grdient</div>
+                                    <b>Group of mentors</br>
+                                    </b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper mentors">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/jinzwicky/" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/mentors/JinKang.jpg" alt="Jin Kang Møller">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Jin Kang Møller</div>
+                                    <b>OCBC Bank</br>
+                                    </b>
+                                    VP, Experience Design
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href="//de.linkedin.com/in/mariaangelapastoriza" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/Maria.jpg" alt="Maria Angela">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Maria Angela</div>
+                                    <b>Marketing &amp; PR</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href="//www.linkedin.com/in/kenaia-neuman-a666a658" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/KenaiaNeuman.jpg" alt="Kenaia Neuman">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Kenaia Neuman</div>
+                                    <b>Writer &amp; Blog Editor</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/LeoTran.jpg" alt="Leo Tran">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Leo Tran</div>
+                                    <b>Web Guy</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/MajduleenDaker.jpg" alt="Majduleen Daker">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Majduleen Daker</div>
+                                    <b>Web Gal</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/StanleyNguyen.jpg" alt="Stanley Nguyen">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Stanley Nguyen</div>
+                                    <b>Design &amp; Technology</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href="//sg.linkedin.com/in/buntong-yun-3139a2b7" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/BuntongYun.jpg" alt="Buntong Yun">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Buntong Yun</div>
+                                    <b>Design &amp; Technology</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href='http://linkedin.com' target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/Shuhei.jpg" alt="Shuhei Tashiro">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Shuhei Tashiro</div>
+                                    <b>Design &amp; Technology</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href="//ph.linkedin.com/in/alex-co-a09b8b34" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/AlexCo.jpg" alt="Alex Co">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Alex Co</div>
+                                    <b>Startup Team</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-wrapper founding">
+                        <div class="project">
+                            <a href="//ph.linkedin.com/in/alyssa-cruz-b89763b4" target='_blank'>
+                                <div class="photo-wrapper">
+                                    <div class="photo">
+                                        <img src="/img/people/founding/AlyssaCruz.jpg" alt="Alyssa Cruz">
+                                    </div>
+                                    <div class="overlay">
+                                        <span class="fui-linkedin"></span>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Alyssa Cruz</div>
+                                    <b>Startup Team</b>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- </div>
         <div class="projects"> -->
 
-        <!-- </div>
+                    <!-- </div>
 
             <div class="projects"> -->
-            <!-- </div>
+                    <!-- </div>
 
         <div class="projects"> -->
-        <!-- </div>
+                    <!-- </div>
         <div class="projects"> -->
-        <!-- </div>
+                    <!-- </div>
         <div class="projects"> -->
-    </div>
+                </div>
 
-    <!--/.container-->
-</section>
-<footer class="footer-1 bg-midnight-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-xs-12">
-                <img class="img-responsive i2i-logo" src="/img/logo-reduced.gif" width="67" height="67" alt="Logo">
+                <!--/.container-->
+        </section>
+        <footer class="footer-1 bg-midnight-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-12">
+                        <img class="img-responsive i2i-logo" src="/img/logo-reduced.gif" width="67" height="67" alt="Logo">
+                    </div>
+                    <nav>
+                        <div class="col-md-2 col-xs-12">
+                            <h6>Site Map</h6>
+                            <ul>
+                                <li>
+                                    <a href="/#about" data-scroll>About</a>
+                                </li>
+                                <li>
+                                    <a href="/#offer" data-scroll>Education&middot;Consulting</a>
+                                </li>
+                                <li>
+                                    <a href="https://fusion.innovationi2i.com" target="_blank">FUSION</a>
+                                </li>
+                                <li>
+                                    <a href="/clients">Clients</a>
+                                </li>
+                                <li>
+                                    <a href="/people">Team</a>
+                                </li>
+                                <li>
+                                    <a href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-xs-12">
+                            <h6>Contact Us</h6>
+                            <ul>
+                                <li>
+                                    <a href="mailto:hello@innovationi2i.com">
+                                        <span class="glyphicon glyphicon-envelope"></span> hello@innovationi2i.com</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#row1">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Singapore</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#row1">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Dubai</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#row2">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Mumbai</a>
+                                </li>
+                                <li>
+                                    <a href="/contact#row2">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Sydney</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <h6>Established as part of</h6>
+                            <a href="//www.spjain.sg">
+                                <img class="img-responsive" src="/img/logos/spjain.png" style="height: 100px;" />
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-xs-12">
+                            <h6>Get more info</h6>
+                            <a class="btn btn-default brochure-btn" href="http://innovationi2i.com/documents/i2i@SPJain-Brochure.pdf">Download Our Brochure</a>
+                        </div>
+                    </nav>
+                </div>
+                <div class='row'>
+                    <div class="social-btns pull-right">
+                        <a href="http://www.facebook.com" target="_blank">
+                            <div class="fui-facebook"></div>
+                            <div class="fui-facebook"></div>
+                        </a>
+                        <a href="http://www.twitter.com" target="_blank">
+                            <div class="fui-twitter"></div>
+                            <div class="fui-twitter"></div>
+                        </a>
+                        <a href="https://www.linkedin.com/pulse/i2i-innovation-insights-center-p-jain-school-global-shareff-uthuman" target="_blank">
+                            <div class='fui-linkedin'></div>
+                            <div class='fui-linkedin'></div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <nav>
-                <div class="col-md-2 col-xs-12">
-                    <h6>Site Map</h6>
-                    <ul>
-                        <li><a href="/#about" data-scroll>About</a></li>
-                        <li><a href="/#offer" data-scroll>Education&middot;Consulting</a></li>
-                        <li><a href="https://fusion.innovationi2i.com" target="_blank">FUSION</a></li>
-                        <li><a href="/clients">Clients</a></li>
-                        <li><a href="/people">Team</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2 col-xs-12">
-                    <h6>Contact Us</h6>
-                    <ul>
-                        <li><a href="mailto:hello@innovationi2i.com"><span class="glyphicon glyphicon-envelope"></span>  hello@innovationi2i.com</a></li>
-                        <li><a href="/contact#row1"><span class="glyphicon glyphicon-map-marker"></span> Singapore</a></li>
-                        <li><a href="/contact#row1"><span class="glyphicon glyphicon-map-marker"></span> Dubai</a></li>
-                        <li><a href="/contact#row2"><span class="glyphicon glyphicon-map-marker"></span> Mumbai</a></li>
-                        <li><a href="/contact#row2"><span class="glyphicon glyphicon-map-marker"></span> Sydney</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <h6>Established as part of</h6>
-                    <a href="//www.spjain.sg"><img class="img-responsive" src="/img/logos/spjain.png" style="height: 100px;"/></a>
-                </div>
-                <div class="col-md-2 col-xs-12">
-                    <h6>Get more info</h6>
-                    <a class="btn btn-default brochure-btn" href="http://innovationi2i.com/documents/i2i@SPJain-Brochure.pdf">Download Our Brochure</a>
-                </div>
-            </nav>
+        </footer>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="/static/js/smooth-scroll.js"></script>
+        <script>smoothScroll.init()</script>
+        <script src="/static/js/people.js"></script>
+        <script src="/startup/common-files/js/jquery-1.10.2.min.js"></script>
+        <script src="/startup/common-files/js/jquery.bxslider.min.js"></script>
+        <script src="/startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="/startup/common-files/js/jquery.sharrre.min.js"></script>
+        <script src="/startup/flat-ui/js/bootstrap.min.js"></script>
+        <script src="/startup/common-files/js/masonry.pkgd.min.js"></script>
+        <script src="/startup/common-files/js/modernizr.custom.js"></script>
+        <script src="/startup/common-files/js/page-transitions.js"></script>
+        <script src="/startup/common-files/js/easing.min.js"></script>
+        <script src="/startup/common-files/js/jquery.svg.js"></script>
+        <script src="/startup/common-files/js/jquery.svganim.js"></script>
+        <script src="/startup/common-files/js/jquery.backgroundvideo.min.js"></script>
+        <script src="/startup/common-files/js/froogaloop.min.js"></script>
+        <script src="/startup/common-files/js/startup-kit.js"></script>
+        <script src="/static/js/navbar.js"></script>
         </div>
-        <div class='row'>
-            <div class="social-btns pull-right">
-                    <a href="http://www.facebook.com" target="_blank">
-                        <div class="fui-facebook"></div>
-                        <div class="fui-facebook"></div>
-                    </a>
-                    <a href="http://www.twitter.com" target="_blank">
-                        <div class="fui-twitter"></div>
-                        <div class="fui-twitter"></div>
-                    </a>
-                    <a href="https://www.linkedin.com/pulse/i2i-innovation-insights-center-p-jain-school-global-shareff-uthuman" target="_blank">
-                        <div class='fui-linkedin'></div>
-                        <div class='fui-linkedin'></div>
-                    </a>
-                </div>
-        </div>
-    </div>
-</footer>            <!-- Placed at the end of the document so the pages load faster -->
-            <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-            <script src="/static/js/smooth-scroll.js"></script>
-            <script>smoothScroll.init()</script>
-            <script src="/static/js/people.js"></script>
-            <script src="/startup/common-files/js/jquery-1.10.2.min.js"></script>
-            <script src="/startup/common-files/js/jquery.bxslider.min.js"></script>
-            <script src="/startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-            <script src="/startup/common-files/js/jquery.sharrre.min.js"></script>
-            <script src="/startup/flat-ui/js/bootstrap.min.js"></script>
-            <script src="/startup/common-files/js/masonry.pkgd.min.js"></script>
-            <script src="/startup/common-files/js/modernizr.custom.js"></script>
-            <script src="/startup/common-files/js/page-transitions.js"></script>
-            <script src="/startup/common-files/js/easing.min.js"></script>
-            <script src="/startup/common-files/js/jquery.svg.js"></script>
-            <script src="/startup/common-files/js/jquery.svganim.js"></script>
-            <script src="/startup/common-files/js/jquery.backgroundvideo.min.js"></script>
-            <script src="/startup/common-files/js/froogaloop.min.js"></script>
-            <script src="/startup/common-files/js/startup-kit.js"></script>
-            <script src="/static/js/navbar.js"></script>
-        </div>
-    </body>
+</body>
+
 </html>
